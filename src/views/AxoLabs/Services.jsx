@@ -11,7 +11,7 @@ export default function Services() {
       icon: MonitorSmartphone,
       color: "!text-cyan-400",
       borderColor: "group-hover:border-cyan-400/50",
-      image: "public/img/argosbn.png" // 👈 Pon aquí la foto de Argos
+      image: "/img/argosbn.png" // 👈 Pon aquí la foto de Argos
     },
     {
       id: 2,
@@ -21,7 +21,7 @@ export default function Services() {
       icon: BrainCircuit,
       color: "!text-fuchsia-500",
       borderColor: "group-hover:border-fuchsia-500/50",
-      image: "public/img/pato.png" // 👈 Pon aquí la foto del ML
+      image: "/img/pato.png" // 👈 Pon aquí la foto del ML
     },
     {
       id: 3,
@@ -31,7 +31,7 @@ export default function Services() {
       icon: Scissors,
       color: "!text-emerald-400",
       borderColor: "group-hover:border-emerald-400/50",
-      image: "public/img/wefashion.png" // 👈 Pon aquí la foto de la app
+      image: "/img/wefashion.png" // 👈 Pon aquí la foto de la app
     }
   ];
 

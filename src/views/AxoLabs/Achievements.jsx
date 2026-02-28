@@ -193,7 +193,7 @@ export default function Achievements() {
             date="2023" 
             icon={Globe} 
             colorClass="!text-cyan-400" 
-            image="public/img/Francia.jpg"
+            image="/img/Francia.jpg"
           />
           <EventCard 
             title="Robocup Thailand 2022" 
@@ -201,7 +201,7 @@ export default function Achievements() {
             date="2022" 
             icon={Globe} 
             colorClass="!text-cyan-400" 
-            image="public/img/tailandia.jpg"
+            image="/img/tailandia.jpg"
           />
         </div>
 
@@ -212,7 +212,7 @@ export default function Achievements() {
             date="2022" 
             icon={MapPin} 
             colorClass="!text-green-400" 
-            image="public/img/tamaulipas.jpg"
+            image="/img/tamaulipas.jpg"
           />
           <EventCard 
             title="TMR Veracruz" 
@@ -220,7 +220,7 @@ export default function Achievements() {
             date="2023" 
             icon={MapPin} 
             colorClass="!text-green-400" 
-            image="public/img/veracruz.jpg"
+            image="/img/veracruz.jpg"
           />
           <EventCard 
             title="Ingetec" 
@@ -228,7 +228,7 @@ export default function Achievements() {
             date="202X" 
             icon={Award} 
             colorClass="!text-yellow-400" 
-            image="public/img/ingetec.jpg"
+            image="/img/ingetec.jpg"
           />
         </div>
       </section>

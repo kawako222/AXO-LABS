@@ -34,7 +34,7 @@ export default function BusinessIdentity() {
               {/* Resplandor cyan opcional al hacer hover */}
               <div className="absolute inset-0 rounded-full bg-cyan-400 blur-md opacity-0 group-hover:opacity-40 transition-opacity duration-300"></div>
               <img 
-                src="public/img/AXO.jpeg" /* 👈 AQUÍ PON LA RUTA DE TU IMAGEN */
+                src="/img/AXO.jpeg" /* 👈 AQUÍ PON LA RUTA DE TU IMAGEN */
                 alt="Axo Labs Mascot" 
                 className="w-full h-full object-cover rounded-full relative z-10"
               />
