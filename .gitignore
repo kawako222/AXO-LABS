@@ -1,40 +1,24 @@
-# 📦 Dependencias (NUNCA subir esto)
-node_modules/
-.pnp
-.pnp.js
-
-# 🚀 Producción / Build
-dist/
-build/
-.vercel
-
-# 🛠️ Logs y Debugging
+# Logs
+logs
+*.log
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
-.pnpm-debug.log*
+pnpm-debug.log*
+lerna-debug.log*
 
-# 🔐 Seguridad y Variables de Entorno (¡VITAL!)
-.env
-.env.local
-.env.development.local
-.env.test.local
-.env.production.local
+node_modules
+dist
+dist-ssr
+*.local
 
-# 💻 Configuraciones de Editor (VS Code / JetBrains)
+# Editor directories and files
 .vscode/*
 !.vscode/extensions.json
-.idea/
+.idea
+.DS_Store
 *.suo
 *.ntvs*
 *.njsproj
 *.sln
 *.sw?
-
-# 🍎 Archivos de Sistema
-.DS_Store
-Thumbs.db
-
-# ⚡ Caché de Herramientas
-.vite/
-.eslintcache
