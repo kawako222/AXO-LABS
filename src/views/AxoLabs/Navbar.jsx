@@ -17,7 +17,7 @@ export default function Navbar() {
         {/* EL MARCO CIRCULAR CLARO (Aquí se arregla el contraste) */}
         <div className="w-16 h-16 md:w-20 md:h-20 bg-slate-100 rounded-full flex items-center justify-center p-3 shadow-[0_0_30px_rgba(34,211,238,0.2)] border-2 border-cyan-400/30 group-hover:scale-105 group-hover:shadow-[0_0_40px_rgba(34,211,238,0.4)] transition-all duration-300">
           <img 
-            src="src/public/img/AXOLABS.png" 
+            src="public/img/AXOLABS.png" 
             alt="Axo Labs Logo" 
             className="w-full h-full object-contain drop-shadow-md"
           />
