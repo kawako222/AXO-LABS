@@ -69,7 +69,7 @@ export default function Navbar() {
             </a>
 
             <a 
-              href="hhttps://www.instagram.com/axo.labs/" 
+              href="https://www.instagram.com/axo.labs" 
               target="_blank" 
               rel="noreferrer"
               className="flex items-center gap-3 px-4 py-3 text-sm !text-slate-300 hover:!text-fuchsia-400 hover:bg-white/5 transition-colors font-medium !font-sans border-t border-white/5 group"
@@ -79,7 +79,7 @@ export default function Navbar() {
             </a>
 
             <a 
-              href="mailto:tu_correo@gmail.com" 
+              href="mailto:axolabs26@gmail.com" 
               className="flex items-center gap-3 px-4 py-3 text-sm !text-slate-300 hover:!text-cyan-400 hover:bg-white/5 transition-colors font-medium !font-sans border-t border-white/5 group"
             >
               <Mail size={18} className="text-slate-400 group-hover:text-cyan-400 transition-colors" /> 
