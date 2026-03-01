@@ -15,11 +15,11 @@ export default function Navbar() {
       <div className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 flex items-center gap-4 cursor-pointer group">
         
         {/* EL MARCO CIRCULAR CLARO (Aquí se arregla el contraste) */}
-        <div className="w-16 h-16 md:w-20 md:h-20 bg-slate-100 rounded-full flex items-center justify-center p-3 shadow-[0_0_30px_rgba(34,211,238,0.2)] border-2 border-cyan-400/30 group-hover:scale-105 group-hover:shadow-[0_0_40px_rgba(34,211,238,0.4)] transition-all duration-300">
+        <div className="w-24 h-24 md:w-32 md:h-32 bg-slate-100 rounded-full flex items-center justify-center p-1 shadow-[0_0_40px_rgba(34,211,238,0.3)] border-2 border-cyan-400/50 group-hover:scale-110 group-hover:shadow-[0_0_50px_rgba(34,211,238,0.5)] transition-all duration-500 relative overflow-hidden">
           <img 
             src="/img/AXOLABS.png" 
             alt="Axo Labs Logo" 
-            className="w-full h-full object-contain drop-shadow-md"
+            className="w-[85%] h-[85%] object-contain drop-shadow-xl"
           />
         </div>
 
@@ -43,7 +43,7 @@ export default function Navbar() {
           <div className="absolute right-0 mt-3 w-56 bg-slate-900 border border-white/10 rounded-xl shadow-[0_10px_40px_rgba(0,0,0,0.5)] py-2 z-50 flex flex-col overflow-hidden transition-all">
             
             <a 
-              href="https://wa.me/523312345678?text=Hola%20Luis,%20me%20interesa%20el%20desarrollo%20de%20software%20en%20Axo%20Labs" 
+              href="https://wa.me/523326107639?text=Hola%20Luis,%20me%20interesa%20el%20desarrollo%20de%20software%20en%20Axo%20Labs" 
               target="_blank" 
               rel="noreferrer"
               className="flex items-center gap-3 px-4 py-3 hover:bg-white/5 transition-colors group"
@@ -56,7 +56,7 @@ export default function Navbar() {
             </a>
 
             <a 
-              href="https://wa.me/523387654321?text=Hola%20Uriel,%20me%20interesa%20estrategia%20y%20marketing%20con%20Axo%20Labs" 
+              href="https://wa.me/523334511710?text=Hola%20Uriel,%20me%20interesa%20estrategia%20y%20marketing%20con%20Axo%20Labs" 
               target="_blank" 
               rel="noreferrer"
               className="flex items-center gap-3 px-4 py-3 hover:bg-white/5 transition-colors border-t border-white/5 group"
@@ -69,7 +69,7 @@ export default function Navbar() {
             </a>
 
             <a 
-              href="https://instagram.com/tu_usuario" 
+              href="hhttps://www.instagram.com/axo.labs/" 
               target="_blank" 
               rel="noreferrer"
               className="flex items-center gap-3 px-4 py-3 text-sm !text-slate-300 hover:!text-fuchsia-400 hover:bg-white/5 transition-colors font-medium !font-sans border-t border-white/5 group"

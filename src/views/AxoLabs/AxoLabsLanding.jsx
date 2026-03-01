@@ -12,8 +12,8 @@ export default function AxoLabsLanding() {
 
       <main className="container mx-auto px-6 py-20">
         <Hero />
+        <BusinessIdentity /> 
         <Services />
-        <BusinessIdentity /> {/* 👈 AQUÍ ENTRA TU VISIÓN DE EMPRESA */}
         <Achievements />
       </main>
 
