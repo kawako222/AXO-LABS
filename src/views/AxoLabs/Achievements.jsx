@@ -225,7 +225,7 @@ export default function Achievements() {
           <EventCard 
             title="Ingetec" 
             type="1er lugar ingetec (Mejor Proyecto de la generación)." 
-            date="202X" 
+            date="2024" 
             icon={Award} 
             colorClass="!text-yellow-400" 
             image="/img/ingetec.jpg"
